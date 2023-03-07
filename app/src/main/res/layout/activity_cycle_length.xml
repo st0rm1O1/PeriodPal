@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/activityBG"
+    tools:context=".Activity.CycleLength">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/periodCardV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+        android:focusable="true"
+        app:cardBackgroundColor="?attr/activityBG"
+        app:cardElevation="80dp"
+        app:cardMaxElevation="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/backCBTN"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleX="1.4"
+                    android:scaleY="1.4"
+                    android:src="@drawable/ic_back"
+                    app:tint="?attr/txtBG" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/semibold"
+                    android:paddingStart="12dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="16dp"
+                    android:text="Cycle Length"
+                    android:textColor="?attr/txtBG"
+                    android:textSize="22dp" />
+
+                <ImageView
+                    android:id="@+id/saveCBTN"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleX="1.2"
+                    android:scaleY="1.2"
+                    android:src="@drawable/ic_correct"
+                    app:tint="?attr/txtBG" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".8dp"
+                android:background="?attr/lineBG" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:id="@+id/rootLayoutCycleLength"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/periodCardV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:overScrollMode="never"
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="18dp"
+            android:paddingTop="24dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="34dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="10dp"
+                android:text="Cycle Length"
+                android:textColor="?attr/subBG"
+                android:textSize="19dp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="14dp"
+                android:clickable="false"
+                android:focusable="true"
+                app:cardBackgroundColor="?attr/cardBG"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:paddingStart="14dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="14dp"
+                    android:paddingBottom="16dp">
+
+                    <ImageView
+                        android:id="@+id/minusBTN"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:scaleX="1.4"
+                        android:scaleY="1.4"
+                        android:src="@drawable/ic_minus"
+                        app:tint="?attr/txtBG" />
+
+                    <TextView
+                        android:id="@+id/daysValueCTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:textColor="?attr/txtBG"
+                        android:textSize="20dp"
+                        tools:text="7 Days" />
+
+                    <ImageView
+                        android:id="@+id/plusBTN"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="18dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:scaleX="1.4"
+                        android:scaleY="1.4"
+                        android:src="@drawable/ic_plus"
+                        app:tint="?attr/txtBG" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:paddingStart="8dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="10dp"
+                android:text="We use this cycle length to predict your next period start date."
+                android:textColor="?attr/subBG"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

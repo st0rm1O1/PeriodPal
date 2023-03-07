@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">PeriodPal</string>
+    <string name="date_display_format">MMMM dd, yyyy</string>
+    <string name="pregnancy_chance">Chances of getting pregnant</string>
+
+    <string-array name="statusTV">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High 😶‍🌫️</item>
+    </string-array>
+
+    <string-array name="windowTV">
+        <item>Period Day</item>
+        <item>Future Period Day</item>
+        <item>Ovulation Day</item>
+        <item>Fertility Window</item>
+    </string-array>
+
+    <string-array name="splashICONS">
+        <item>https://media1.giphy.com/media/d3yxg15kJppJilnW/giphy.gif</item>
+        <item>https://64.media.tumblr.com/tumblr_m73ye495RJ1qhbw13o1_500.gif</item>
+        <item>https://media3.giphy.com/media/ipMj7kerASRXO/giphy.gif</item>
+        <item>https://media3.giphy.com/media/bisl4dG0Yl4JLikv9X/giphy.gif</item>
+        <item>https://media2.giphy.com/media/l2JJI7fVvd3SjoUWA/giphy.gif</item>
+        <item>https://raw.githubusercontent.com/st0rm1O1/RES/main/GIF/splash_calendar.gif</item>
+    </string-array>
+
+    <string-array name="hello_IMGS">
+        <item>https://media.tenor.com/_eiXeiKNgJgAAAAi/blood-sustainable.gif</item>
+        <item>https://media.tenor.com/YypCjFEP7IwAAAAi/sustainable-period.gif</item>
+        <item>https://media.tenor.com/zUkO0Uysaf4AAAAj/mochi-peach.gif</item>
+    </string-array>
+
+    <string-array name="hero_IMGS">
+        <item>https://media3.giphy.com/media/MRtqvTqgmmzdYeQIJF/giphy.gif</item>
+        <item>https://media2.giphy.com/media/uZm0pXOiivOlp3bWqm/giphy.gif</item>
+        <item>https://media4.giphy.com/media/0Qv8WySxVtKIqrAPbv/giphy.gif</item>
+        <item>https://media3.giphy.com/media/PXApia9fVviiWREDRq/giphy.gif</item>
+        <item>https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDkyYjQxNWY2NDkyOThlYmVkMWE5ZTViYWY2OTk0MzI0MzJhOGFjMiZjdD1n/dGgRUxjoTQTVEQTd0w/giphy.gif</item>
+        <item>https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFiYTYxNDhiMDYwYjUzMTY4ZWFmMDhmMjliMDg2ODNmMTJiZjYwYyZjdD1n/HCJJlbF8097pdYRNWW/giphy.gif</item>
+        <item>https://media1.giphy.com/media/pR1ztNFfPS7wa2eYfY/giphy.gif</item>
+    </string-array>
+
+    <string-array name="pets_IMGS">
+        <item>https://media.tenor.com/Fm8FYgSdTPEAAAAi/rolling-cat.gif</item>
+        <item>https://media.tenor.com/5r_fm4X0jqUAAAAi/cool-cats-cool-cats-nft.gif</item>
+        <item>https://media.tenor.com/FtmdqKGtwm8AAAAi/lipo-gregetan-cat.gif</item>
+        <item>https://media.tenor.com/1Ptg6d71XO8AAAAi/cute-face-puss.gif</item>
+        <item>https://media.tenor.com/d3vPpLQHpX8AAAAi/cute-face-kitty-softpaws.gif</item>
+        <item>https://media.tenor.com/a_I6JYUP1f8AAAAi/hasher-happy-sticker.gif</item>
+        <item>https://media.tenor.com/RAXXZY-YtVAAAAAi/unicorn-joypixels.gif</item>
+        <item>https://media.tenor.com/koPNkpkf840AAAAi/cute-dog.gif</item>
+    </string-array>
+
+    <string-array name="data_BG">
+        <item>https://media3.giphy.com/media/TM8Fu4TrgkNSmXh5cw/giphy.gif</item>
+        <item>https://media3.giphy.com/media/hFhygTRHt4jvGQo52q/giphy.gif</item>
+        <item>https://media0.giphy.com/media/OK5LK5zLFfdm/giphy.gif</item>
+        <item>https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif</item>
+        <item>https://media1.giphy.com/media/fwo7bzEVxbYS4eSNVd/giphy.gif</item>
+        <item>https://media2.giphy.com/media/VwkOGUM4gAkrDrFw2L/giphy.gif</item>
+        <item>https://media2.giphy.com/media/Tk7OGjSqfRSlDbtu20/giphy.gif</item>
+        <item>https://media1.giphy.com/media/xUOwGcu6wd0cXBj5n2/giphy.gif</item>
+    </string-array>
+
+
+    <string-array name="periodDay_IMGS">
+        <item>https://media.tenor.com/_eiXeiKNgJgAAAAi/blood-sustainable.gif</item>
+        <item>https://media.tenor.com/YypCjFEP7IwAAAAi/sustainable-period.gif</item>
+        <item>https://media.tenor.com/zUkO0Uysaf4AAAAj/mochi-peach.gif</item>
+    </string-array>
+
+    <string-array name="futurePeriodDay_IMGS">
+        <item>https://media.tenor.com/_eiXeiKNgJgAAAAi/blood-sustainable.gif</item>
+        <item>https://media.tenor.com/YypCjFEP7IwAAAAi/sustainable-period.gif</item>
+        <item>https://media.tenor.com/zUkO0Uysaf4AAAAj/mochi-peach.gif</item>
+    </string-array>
+
+    <string-array name="highDay_IMGS">
+        <item>https://media.tenor.com/S5W6_fHBUc8AAAAi/high-five-seekersnotes.gif</item>
+        <item>https://media.tenor.com/NALZjdDZPuEAAAAi/ep00000-tonton.gif</item>
+        <item>https://media.tenor.com/P6Z1BkFJSxEAAAAi/happy-baby.gif</item>
+        <item>https://media.tenor.com/X9DDaxO1_X0AAAAC/school-paper.gif</item>
+        <item>https://media.tenor.com/-RYUs_Icgw4AAAAj/crayon-shin-chan-crayon-shin-chan-dance.gif</item>
+        <item>https://media.tenor.com/-yfHhbfujp8AAAAi/so-cute-rock.gif</item>
+    </string-array>
+
+    <string-array name="midDay_IMGS">
+        <item>https://media.tenor.com/S5W6_fHBUc8AAAAi/high-five-seekersnotes.gif</item>
+        <item>https://media.tenor.com/NALZjdDZPuEAAAAi/ep00000-tonton.gif</item>
+        <item>https://media.tenor.com/P6Z1BkFJSxEAAAAi/happy-baby.gif</item>
+        <item>https://media.tenor.com/X9DDaxO1_X0AAAAC/school-paper.gif</item>
+        <item>https://media.tenor.com/-RYUs_Icgw4AAAAj/crayon-shin-chan-crayon-shin-chan-dance.gif</item>
+        <item>https://media.tenor.com/-yfHhbfujp8AAAAi/so-cute-rock.gif</item>
+    </string-array>
+
+    <string-array name="lowDay_IMGS">
+        <item>https://media.tenor.com/S5W6_fHBUc8AAAAi/high-five-seekersnotes.gif</item>
+        <item>https://media.tenor.com/NALZjdDZPuEAAAAi/ep00000-tonton.gif</item>
+        <item>https://media.tenor.com/P6Z1BkFJSxEAAAAi/happy-baby.gif</item>
+        <item>https://media.tenor.com/X9DDaxO1_X0AAAAC/school-paper.gif</item>
+        <item>https://media.tenor.com/-RYUs_Icgw4AAAAj/crayon-shin-chan-crayon-shin-chan-dance.gif</item>
+        <item>https://media.tenor.com/-yfHhbfujp8AAAAi/so-cute-rock.gif</item>
+    </string-array>
+
+
+</resources>

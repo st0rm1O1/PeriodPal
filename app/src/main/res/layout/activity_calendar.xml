@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/activityBG"
+    tools:context=".Activity.Calendar">
+
+    <ScrollView
+        android:id="@+id/rootLayoutCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:overScrollMode="never"
+        android:requiresFadingEdge="none"
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.applandeo.materialcalendarview.CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:abbreviationsBarColor="?attr/cardBG"
+                app:abbreviationsLabelsColor="@color/gradient_end"
+                app:daysLabelsColor="?attr/txtBG"
+                app:disabledDaysLabelsColor="?attr/subBG"
+                app:eventsEnabled="true"
+                app:headerColor="?attr/activityBG"
+                app:headerLabelColor="@color/gradient_end"
+                app:pagesColor="?attr/cardBG"
+                app:todayLabelColor="@color/red_D" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="48dp"
+                app:cardBackgroundColor="?attr/cardBG"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="80dp"
+                app:cardMaxElevation="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:id="@+id/dateTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/medium"
+                        android:textAllCaps="true"
+                        android:textColor="?attr/txtBG"
+                        android:textSize="18dp"
+                        tools:text="FEB 28, 2023" />
+
+                    <TextView
+                        android:id="@+id/windowTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:drawablePadding="6dp"
+                        android:fontFamily="@font/semibold"
+                        android:gravity="center_vertical"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="2dp"
+                        android:textColor="?attr/txtBG"
+                        android:textSize="22dp"
+                        tools:drawableEndCompat="@drawable/ic_fertile"
+                        tools:text="Fertility Window" />
+
+                    <TextView
+                        android:id="@+id/statusTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/bold"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="0dp"
+                        android:textColor="?attr/txtBG"
+                        android:textSize="38dp"
+                        android:visibility="gone"
+                        tools:text="Medium 💀"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/desTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/medium"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="12dp"
+                        android:text="@string/pregnancy_chance"
+                        android:textColor="?attr/subBG"
+                        android:textSize="14dp"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/stateIMG"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_gravity="bottom|end"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
